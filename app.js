@@ -3,6 +3,11 @@ let progress=document.querySelector('#progress')
 let playBtn=document.querySelector('#play-btn')
 let nextBtn=document.querySelector('#next-btn')
 let prvBtn=document.querySelector('#prv-btn')
+let Head=document.querySelector("h1")
+
+Head.classList.add("first")
+songList.classList.add("secound")
+
 
 let songs=[{
   name:"song1",
